@@ -1,0 +1,8 @@
+<h1>Company Portal</h1>
+<div class="container">
+    <div class="row" *ngFor="let item of retail">
+        <p>{{item.name}} cooresponding office image:</p>
+        <img [src]="item.imgSrc">
+    </div>
+    <button class="btn btn-btn-primary" (click)="doLogin()">Click For Login</button>
+</div>
